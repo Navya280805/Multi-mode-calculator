@@ -3,6 +3,7 @@ Overview:
 This is a Multi Mode Calculator capable of performing basic, scientific, and trigonometric operations. It is designed to provide an intuitive interface and accurate calculations for users ranging from beginners to advanced learners.
 
 -> Features
+
 1.Basic Operations: Addition, Subtraction, Multiplication, Division.
 
 2.Scientific Calculations:
