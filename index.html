@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Multi Mode Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app light">
+    <header>
+      <h1>Multi Mode Calculator</h1>
+      <div class="toggles">
+        <div class="mode-toggle">
+          <button class="mode-btn active" data-mode="basic">Basic</button>
+          <button class="mode-btn" data-mode="scientific">Scientific</button>
+          <button class="mode-btn" data-mode="trigonometric">Trigonometric</button>
+        </div>
+        <button id="theme-toggle" aria-label="Toggle dark/light mode">☀️</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="calculator">
+        <input
+          type="text"
+          id="expression"
+          placeholder="Enter expression"
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <div class="buttons-grid" id="buttons-grid">
+        </div>
+        <button class="btn-clear" id="clear-btn">C</button>
+      </section>
+
+      <aside class="history-panel" id="history-panel">
+        <h2>History</h2>
+        <ul id="history-list">
+          <li class="no-history">No calculations yet</li>
+        </ul>
+      </aside>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
